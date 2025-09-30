@@ -108,17 +108,17 @@ dependencies = [
 
 [[tool.uv.index]]
 name = "pytorch-cu129"
-url = "https://download.pytorch.org/whl/cu129"
+url = "https://download.pytorch.org/whl/cu121"
 explicit = true
 
 [[tool.uv.index]]
 name = "pyg"
-url = "https://data.pyg.org/whl/torch-2.8.0+cu129.html"
+url = "https://data.pyg.org/whl/torch-2.4.0+cu121.html"
 explicit = true
 
 [[tool.uv.index]]
 name = "dgl"
-url = "https://data.dgl.ai/wheels/torch-2.4/cu124/repo.html"
+url = "https://data.dgl.ai/wheels/torch-2.1/cu121/repo.html"
 explicit = true
 
 [tool.uv.sources]
